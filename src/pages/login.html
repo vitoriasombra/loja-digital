@@ -8,7 +8,11 @@
     <title>Entrar - Loja Digital</title>
     <link 
     rel="stylesheet" 
-    href="../styles/login.css"
+    href="../styles/reset.css"
+    />
+    <link 
+    rel="stylesheet" 
+    href="../styles/global.css"
     />
 </head>
 <body>
@@ -23,5 +27,54 @@
             </a>
         </nav>
     </header>
+    <main>
+        <form>
+            <h1>acesse sua conta</h1>
+            <p>não possui conta? registre-se <a href="">aqui</a>.</p>
+            <div class="inputs">
+                <div>
+                    <label>email *</label>
+                    <input 
+                    type="email" 
+                    placeholder="insira seu email"
+                    />
+                </div>
+                <div>
+                    <label>senha *</label>
+                    <input 
+                    type="password"
+                    placeholder="insira sua senha"
+                     />
+                </div>
+            </div>
+            <span>
+                <a href="#">esqueci minha senha</a>
+            </span>
+            <button>acessar conta</button>
+            <div class="others">
+                <span>ou faça login com</span>
+                <nav>
+                    <ul>
+                        <li>
+                        <a href="#">
+                            <img 
+                            src="../assets/gmail.svg" 
+                            alt="ícone do gmail">
+                        </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img 
+                                src="../assets/facebook.svg" 
+                                alt="ícone do facebook">
+                        </a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        
+        </form>
+    </main>
 </body>
 </html>
